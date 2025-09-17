@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Thư Xin Lỗi</title>
+<style>
+:root{--card:#ffffff;--accent:#ff6b6b;--muted:#6b6b6b}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial; background:linear-gradient(135deg,#e0c3fc,#8ec5fc); color:#222}
+.wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:32px}
+.card{width:100%;max-width:820px;background:var(--card);border-radius:16px;box-shadow:0 10px 30px rgba(20,20,30,0.08);padding:32px}
+header{display:flex;flex-direction:column;gap:16px;align-items:center}
+header img{max-width:90%;border-radius:16px;box-shadow:0 6px 16px rgba(0,0,0,0.15);margin:0 auto}
+.avatar{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,#ffdede,#ffe9e9);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent);font-size:28px}
+h1{margin:0;font-size:22px;text-align:center}
+p.lead{color:var(--muted);margin-top:10px;text-align:center}
+.message{margin-top:22px;line-height:1.65;padding:20px;border-radius:12px;background:linear-gradient(180deg,#fff7f7,#fffaf9);border:1px solid rgba(255,107,107,0.06)}
+.small{font-size:13px;color:var(--muted)}
+.gallery{margin-top:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
+.gallery img{width:100%;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,0.08);object-fit:cover}
+@media (max-width:600px){.card{padding:20px}.avatar{width:56px;height:56px;font-size:22px}}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <header>
+        <img src="c68fd084f7e531bb68f4.jpg" alt="Ảnh nhóm trên cầu" />
+        <div class="avatar"></div>
+        <div>
+          <h1>Thư xin lỗi — Thay lời muốn nói</h1>
+          <p class="lead">Một trang web nhỏ để gửi lời xin lỗi chân thành .</p>
+        </div>
+      </header>
+
+      <section class="message">
+        <p><strong>Kính gửi:</strong> Chị Phương</p>
+
+        <p>Trong cuộc sống, ai cũng có lúc sai lầm — và lần này lại là lỗi của em. Em rất tiếc vì đã làm chị buồn, tổ thương và gây ra phiền toái cho chị. Em xin chịu trách nhiệm và mong bạn tha thứ cho những lời nói/hành động không đúng của mình.</p>
+
+        <p>Em thật sự hối hận và mong có cơ hội sửa sai. Nếu chị đồng ý, cho em biết cách để bù đắp và khắc phục hậu quả. Một lần nữa, xin lỗi chị vì mọi chuyện đã xảy ra.</p>
+
+        <p class="small"><em>Trân trọng,</em><br><strong>Lê Chánh Tâm</strong></p>
+      </section>
+
+      <div class="gallery">
+        <img src="01.jpg" alt="Minh họa cúi người xin lỗi" />
+        <img src="03.jpg" alt="Hình ảnh xin lỗi lịch sự" />
+        <img src="02.jpg" alt="Người cúi đầu thể hiện sự hối lỗi" />
+      </div>
+    </div>
+  </div>
+</body>
+</html>
